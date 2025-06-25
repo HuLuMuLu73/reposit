@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #070217;
+}
+
+.logo {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.links {
+    margin-bottom: 50px;
+}
+
+.link {
+    display: inline-block;
+    padding: 24px 49px;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #3f2aff;
+}
+
+.link:not(:last-child) {
+    margin-right: 25px;
+}
+
+a:not(.li a, .download) {
+    color: white;
+    text-decoration-line: none;
+}
+
+.download {
+    font-weight: 700;
+    font-size: 18px;
+    color: #3f2aff;
+    padding-left: 30px;
+    background: url(../img/download.png) no-repeat;
+    background-position: left;
+    text-decoration-line: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 80px 0;
+    width: 1170px;
+}
+
+.h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    color: #333;
+}
+
+.h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 46px;
+    color: #333;
+}
+
+.h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #333;
+}
+
+.text {
+    margin-top: 0;
+    margin-bottom: 40px;
+    width: 872px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #333;
+}
+
+.blue {
+    border-radius: 20px;
+    padding: 50px 95px;
+    width: 85%;
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    background-color: #3f2aff;
+
+}
+
+.gray-box {
+    border-radius: 20px;
+    padding: 30px;
+    background: #f3f3f3 no-repeat right;
+}
+
+.gray {
+    background-image: url('../img/decorate-1.png');
+}
+
+.gray2 {
+    background-image: url('../img/decorate-2.png');
+}
+
+.gray-box:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.gray-box .text {
+    width: 692px;
+    margin-bottom: 10px;
+}
+
+.ul {
+    margin-left: 15px;
+    padding: 0;
+}
+
+.li a {
+    text-decoration: none;
+    color: #3f2aff;
+    border-bottom: 1px solid #3f2aff;
+    font-size: 20px;
+    color: #3f2aff;
+}
+
+.li::marker {
+    color: #3f2aff;
+}
+
+.li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+img:not(figure img) {
+    margin-bottom: 40px;
+}
+
+figure {
+    margin-left: 0;
+    display: inline-block;
+    margin-bottom: 40px;
+    width: 872px;
+    font-size: 0;
+}
+
+figcaption {
+    border: 1px solid #b6b6b6;
+    border-top: none;
+    padding: 19px 0;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}
